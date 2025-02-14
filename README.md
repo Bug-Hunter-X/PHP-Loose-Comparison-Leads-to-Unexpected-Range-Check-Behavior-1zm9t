@@ -1,0 +1,3 @@
+# PHP Loose Comparison Bug
+
+This repository demonstrates a common but easily overlooked error in PHP: unexpected behavior with loose comparisons in range checks, specifically when dealing with string inputs.  The `bug.php` file contains code that incorrectly handles string values when checking if they fall within a specific range.  The `bugSolution.php` file provides the corrected code that uses strict comparison to prevent this behavior.
